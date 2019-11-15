@@ -25,7 +25,7 @@ export class StackComponent extends Component {
 
 	render() {
 		return (
-			<div>
+			<div style={{ border: "1px solid black" }}>
 				<div>StackComponent</div>
 				<div>{JSON.stringify(this.state.stack)}</div>
 				<div>

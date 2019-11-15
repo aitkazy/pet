@@ -6,7 +6,7 @@ import Stack from "./ds/stack/Stack";
 
 function App() {
 	return (
-		<div>
+		<div style={{ borderCollapse: "collapse" }}>
 			<div>app</div>
 			<div>
 				<QueueComponent queue={new Queue()} />
